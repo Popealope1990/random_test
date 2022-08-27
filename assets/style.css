@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px solid black;
-}
+} */
 
 body{
     background-color: rgb(209, 119, 209);
@@ -28,6 +28,8 @@ body{
 .image-box{
     display: flex;
     justify-content: space-evenly;
+    background-color: aquamarine;
+    padding: 10px;
     /* flex-wrap: wrap; */
 }
 
@@ -36,4 +38,18 @@ body{
     justify-content: center;
     height: 300px;
     width: 300px;
+}
+
+@media (max-width: 1125px){
+    .image-box{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aquamarine;
+    }
+
+    .img-sizing{
+        width: 90%;
+        padding: 10px;
+        /* height: 200px; */
+    }
 }
