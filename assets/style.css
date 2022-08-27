@@ -27,7 +27,13 @@ body{
 
 .image-box{
     display: flex;
-    flex-wrap: wrap;
-    height: 400px;
-    width: 100%;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+.img-sizing{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
 }
